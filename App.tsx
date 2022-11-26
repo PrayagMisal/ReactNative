@@ -54,7 +54,7 @@ const Section = ({children, title}): Node => {
   );
 };
 
-const App: () => Node = () => {
+const App= () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -75,7 +75,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step 1">
+          <Section title="Step one wohoo">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
